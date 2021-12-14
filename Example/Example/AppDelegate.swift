@@ -21,9 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
      After deploying your backend, replace nil on the line below with the URL
      of your Heroku app.
 
-     static var backendUrl: String? = "https://your-app.herokuapp.com"
+     static var backendUrl: String? = "https://tsa-terminal-test.herokuapp.com/"
      */
-    static var backendUrl: String?
+    static var backendUrl: String? = "https://tsa-terminal-test.herokuapp.com/"
 
     static var apiClient: APIClient?
 
